@@ -31,6 +31,13 @@ class ItemMonitor {
       const searchResult = JSON.parse(searchStringResult);
       const {searchContent:{preso:{items}}} = searchResult;
 
+       //check whether the product is found
+       if (items.length === 0) {
+        return "Product not found";
+       
+      }
+      
+      // returns the item object if it is found
       return items;
       
       
