@@ -1,0 +1,32 @@
+{
+  "name": "item-finder-walmart",
+  "version": "1.0.0",
+  "description": "A javascript class that helps in searching for products in an e-commerce site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnamdi16/item-finder-walmart.git"
+  },
+  "author": "Nwabuokei Nnamdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnamdi16/item-finder-walmart/issues"
+  },
+  "homepage": "https://github.com/nnamdi16/item-finder-walmart#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browser-cookies": "^1.2.0",
+    "cheerio": "^1.0.0-rc.5",
+    "htmlparser2": "^6.0.0",
+    "install": "^0.13.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "node-scrapy": "^0.5.0",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
